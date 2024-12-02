@@ -158,3 +158,30 @@ body {
     right: 65vw;
   }
 }
+@media (max-width: 420px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .result-area {
+    margin-top: 20vh;
+    font-size: 5rem;
+  }
+  .incrment-decrement {
+    font-size: 1.5rem;
+  }
+  #addition,
+  #subtraction {
+    height: 5vh;
+    width: 15vw;
+  }
+  .reset {
+    margin-top: 5vh;
+  }
+  .reset button {
+    font-size: 1.5rem;
+  }
+  .social-links {
+    top: 80vh;
+    right: 40vw;
+  }
+}

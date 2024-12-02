@@ -132,10 +132,11 @@ body {
 }
 @media (max-width: 500px) {
   .heading {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   .result-area {
     margin-top: 10vh;
+    color: red;
   }
   .incrment-decrement {
     font-size: 1.5rem;
@@ -147,7 +148,7 @@ body {
   }
   #addition,
   #subtraction {
-    width: 12vw;
+    width: 15vw;
     height: 7vh;
     margin: 1rem;
   }
@@ -156,6 +157,7 @@ body {
   }
   .social-links {
     right: 65vw;
+    bottom: 10vh;
   }
 }
 @media (max-width: 420px) {
@@ -163,7 +165,7 @@ body {
     font-size: 2rem;
   }
   .result-area {
-    margin-top: 20vh;
+    margin-top: 15vh;
     font-size: 5rem;
   }
   .incrment-decrement {
@@ -171,17 +173,17 @@ body {
   }
   #addition,
   #subtraction {
-    height: 5vh;
+    height: 9vh;
     width: 15vw;
   }
   .reset {
     margin-top: 5vh;
   }
   .reset button {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .social-links {
-    top: 80vh;
-    right: 40vw;
+    top: 85vh;
+    right: 35vw;
   }
 }

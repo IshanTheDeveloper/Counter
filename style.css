@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+  font-weight: 900;
+  background-color: slategrey;
+  margin-top: 2vh;
+  border-radius: 10vw;
+  width: 80vw;
+  margin-left: 10vw;
+  border: 2px solid white;
+  box-shadow: 0 0 10px 6px grey;
+}
+.social-links {
+  font-size: 2.2vw;
+  position: absolute;
+  top: 5vh;
+  right: 3vh;
+}
+.incrment-decrement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 7vh;
+  font-size: 2vw;
+}
+.incrment-decrement input {
+  width: 10vw;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  border: 1px soild grey;
+  text-align: center;
+  font-size: 1.4vw;
+}
+.operation-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  margin-top: 7vh;
+}
+#addition,
+#subtraction {
+  color: white;
+  font-size: 3vw;
+  padding: 0.5rem;
+  width: 5vw;
+  height: max-content;
+  border-radius: 1rem;
+  background-color: cadetblue;
+  border: 3px solid black;
+  &:hover {
+    box-shadow: 0 0 7px 6px grey;
+    border: 2px solid white;
+    color: black;
+    cursor: pointer;
+  }
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  margin-top: 9vh;
+}
+.reset button {
+  padding: 0.6rem;
+  font-size: 1.8vw;
+  border-radius: 0.7rem;
+  border: none;
+  color: white;
+  background-color: rgb(49, 100, 221);
+  &:hover {
+    cursor: pointer;
+    border: 2px solid black;
+  }
+}
+.result-area {
+  margin-top: 5vh;
+  font-size: 6vw;
+}
+@media (max-width: 800px) {
+  .heading {
+    font-size: 3.5rem;
+  }
+  .social-links {
+    width: 30vw;
+    position: absolute;
+    top: 94vh;
+    right: 70vw;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .result-area {
+    font-size: 5rem;
+  }
+  .incrment-decrement {
+    font-size: 2rem;
+  }
+  .incrment-decrement input {
+    font-size: 2rem;
+    width: 15vw;
+  }
+  #addition,
+  #subtraction {
+    width: 10vw;
+    height: 8vh;
+    font-size: 2rem;
+  }
+  .reset button {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .heading {
+    font-size: 2.8rem;
+  }
+  #addition,
+  #subtraction {
+    width: 13vw;
+  }
+}
+@media (max-width: 500px) {
+  .heading {
+    font-size: 2.8rem;
+  }
+  .result-area {
+    margin-top: 10vh;
+  }
+  .incrment-decrement {
+    font-size: 1.5rem;
+  }
+  .incrment-decrement input {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    border: 2px solid grey;
+  }
+  #addition,
+  #subtraction {
+    width: 12vw;
+    height: 7vh;
+    margin: 1rem;
+  }
+  .reset button {
+    font-size: 1.7rem;
+  }
+  .social-links {
+    right: 65vw;
+  }
+}
